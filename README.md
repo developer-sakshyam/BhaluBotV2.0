@@ -1,7 +1,5 @@
 BhaluBotV2.0 – Discord Photo-Only Moderation Bot
 
-“Let ChatGPT do it!”
-
 🎯 Why I Made This Bot
 
 I created BhaluBotV2.0 to enforce order in Discord servers where people were spamming text in photo-only channels. It ensures that channels meant for images remain focused, while still letting users share limited text messages per day.
