@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import os
@@ -33,7 +32,7 @@ class Key:
     guild_id: int
     channel_id: int
     user_id: int
-    date: str  # YYYY-MM-DD
+    date: str 
 
 counts: Dict[Key, int] = {}
 restricted_cache: Dict[int, Set[int]] = {}
