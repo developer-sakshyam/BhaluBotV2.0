@@ -1,12 +1,12 @@
-#BhaluBotV2.0 – Discord Photo-Only Moderation Bot
+BhaluBotV2.0 – Discord Photo-Only Moderation Bot
 ---
 🎯 Why I Made This Bot
 
 I created BhaluBotV2.0 to enforce order in Discord servers where people were spamming text in photo-only channels. It ensures that channels meant for images remain focused, while still letting users share limited text messages per day.
+
 ---
-
 #✨Features
-
+---
 Photo-Only Channels – Unlimited images, limited text.
 
 Daily Text Limit – Users can only send 3 text messages/day in restricted channels.
@@ -19,8 +19,9 @@ Automatic Log Cleanup – Logs older than 24 hours are automatically deleted.
 
 Persistent Storage – Uses SQLite to save restrictions and logs.
 ---
-
-#⚙️ Setup & Installation
+---
+⚙️ Setup & Installation
+---
 
 Clone the repository:
 
@@ -43,7 +44,9 @@ Run the bot:
 
 python bhalubot.py
 
-#🛡Permissions Required
+---
+🛡Permissions Required
+---
 
 Manage Messages – Delete excess messages.
 
@@ -53,8 +56,9 @@ Send Messages – Reply to commands.
 
 Use Slash Commands – Execute /restrict, /unrestrict, /logs.
 ---
-
-#🚀Slash Commands
+---
+🚀Slash Commands
+---
 
 Command	Description
 
@@ -64,7 +68,9 @@ Command	Description
 
 /logs [limit]	Show recent deletions (default 50, max 200)
 
-#🛠 Tech Stack
+---
+🛠 Tech Stack
+---
 
 Python 3.11
 
