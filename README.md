@@ -62,7 +62,7 @@ No warnings. No spam. Just **discipline**.
 
 ### 1️⃣ Clone the repo <br>
 git clone https://github.com/sakshyamkharel/DumbAssPiss.git <br>
-cd DumbAssPiss <br>
+cd BhaluBotV2.0 <br>
 2️⃣ Install dependencies <br>
 bash <br>
 Copy code <br>
@@ -75,7 +75,7 @@ GUILD_ID=123456789012345678<br>
 4️⃣ Run the bot<br>
 bash<br>
 Copy code<br>
-python core.py<br>
+python bhalubot.py<br>
 🔒 Required Permissions
 🧹 Manage Messages
 
