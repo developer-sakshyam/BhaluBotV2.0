@@ -64,17 +64,13 @@ No warnings. No spam. Just **discipline**.
 git clone https://github.com/sakshyamkharel/DumbAssPiss.git <br>
 cd BhaluBotV2.0 <br>
 2️⃣ Install dependencies <br>
-bash <br>
-Copy code <br>
 pip install -U discord.py python-dotenv aiosqlite<br>
 3️⃣ Create a .env file<br>
 env<br>
-Copy code<br>
+
 DISCORD_TOKEN=your_bot_token_here<br>
 GUILD_ID=123456789012345678<br>
 4️⃣ Run the bot<br>
-bash<br>
-Copy code<br>
 python bhalubot.py<br>
 🔒 Required Permissions
 🧹 Manage Messages
