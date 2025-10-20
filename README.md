@@ -100,5 +100,5 @@ Keeps only 24-hour-old logs 🧾
 Reduces memory & DB load 🚀
 
 🌐 Connect With Me
-<p align="center"> <a href="https://github.com/developer-sakshyam"> <img src="https://img.shields.io/badge/GitHub-sakshyamkharel-181717?style=for-the-badge&logo=github&logoColor=white"/> </a> <a href="https://www.linkedin.com/in/sakshyam-kharel-223724333/"> <img src="https://img.shields.io/badge/LinkedIn-Sakshyam-blue?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> </p>
+<p align="center"> <a href="https://github.com/developer-sakshyam"> <img src="https://img.shields.io/badge/GitHub-developer-sakshyam-181717?style=for-the-badge&logo=github&logoColor=white"/> </a> <a href="https://www.linkedin.com/in/sakshyam-kharel-223724333/"> <img src="https://img.shields.io/badge/LinkedIn-Sakshyam-blue?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> </p>
 <p align="center"> <b>“No spam. No chaos. Just photos.”</b><br> 🧠 Made by <a href="https://github.com/sakshyamkharel">Sakshyam Kharel</a> </p>
