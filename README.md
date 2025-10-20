@@ -60,22 +60,22 @@ No warnings. No spam. Just **discipline**.
 
 ## 🧠 Setup Instructions
 
-### 1️⃣ Clone the repo
-git clone https://github.com/sakshyamkharel/DumbAssPiss.git
-cd DumbAssPiss
-2️⃣ Install dependencies
-bash
-Copy code
-pip install -U discord.py python-dotenv aiosqlite
-3️⃣ Create a .env file
-env
-Copy code
-DISCORD_TOKEN=your_bot_token_here
-GUILD_ID=123456789012345678
-4️⃣ Run the bot
-bash
-Copy code
-python core.py
+### 1️⃣ Clone the repo <br>
+git clone https://github.com/sakshyamkharel/DumbAssPiss.git <br>
+cd DumbAssPiss <br>
+2️⃣ Install dependencies <br>
+bash <br>
+Copy code <br>
+pip install -U discord.py python-dotenv aiosqlite<br>
+3️⃣ Create a .env file<br>
+env<br>
+Copy code<br>
+DISCORD_TOKEN=your_bot_token_here<br>
+GUILD_ID=123456789012345678<br>
+4️⃣ Run the bot<br>
+bash<br>
+Copy code<br>
+python core.py<br>
 🔒 Required Permissions
 🧹 Manage Messages
 
