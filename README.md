@@ -2,10 +2,10 @@
 <!--      BhaluBOTV2.0 README    -->
 <!-- =============================== -->
 
-<h1 align="center">🤖 DumbAssPiss – Discord Photo-Only Moderation Bot</h1>
+<h1 align="center">🤖 BhaluBotV2.0 – Discord Photo-Only Moderation Bot</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/f0h8jQr.png" width="250px" alt="Bot Logo"/>
+  <img src="https://i.pinimg.com/736x/d8/f6/64/d8f6643cca5701436567316cbe78e438.jpg" width="250px" alt="Bot Logo"/>
 </p>
 
 <p align="center">
@@ -19,7 +19,6 @@
   <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/discord.py-v2.0-blue?logo=discord&logoColor=white">
   <img src="https://img.shields.io/badge/SQLite-Database-orange?logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/github/license/sakshyamkharel/DumbAssPiss">
 </p>
 
 ---
