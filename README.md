@@ -1,81 +1,109 @@
-BhaluBotV2.0 – Discord Photo-Only Moderation Bot
----
-🎯 Why I Made This Bot
+<!-- =============================== -->
+<!--      BhaluBOTV2.0 README    -->
+<!-- =============================== -->
 
-I created BhaluBotV2.0 to enforce order in Discord servers where people were spamming text in photo-only channels. It ensures that channels meant for images remain focused, while still letting users share limited text messages per day.
+<h1 align="center">🤖 DumbAssPiss – Discord Photo-Only Moderation Bot</h1>
 
----
-#✨Features
----
-Photo-Only Channels – Unlimited images, limited text.
+<p align="center">
+  <img src="https://i.imgur.com/f0h8jQr.png" width="250px" alt="Bot Logo"/>
+</p>
 
-Daily Text Limit – Users can only send 3 text messages/day in restricted channels.
+<p align="center">
+  <b>Keep your Discord channels clean. No chatting in photo-only zones. Period.</b><br>
+  Built with ❤️ using <code>Python</code>, <code>discord.py</code> & <code>aiosqlite</code>
+</p>
 
-Silent Moderation – Deletes messages silently without spamming warnings.
-
-Slash Commands – /restrict, /unrestrict, /logs.
-
-Automatic Log Cleanup – Logs older than 24 hours are automatically deleted.
-
-Persistent Storage – Uses SQLite to save restrictions and logs.
----
----
-⚙️ Setup & Installation
 ---
 
-Clone the repository:
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/discord.py-v2.0-blue?logo=discord&logoColor=white">
+  <img src="https://img.shields.io/badge/SQLite-Database-orange?logo=sqlite&logoColor=white">
+  <img src="https://img.shields.io/github/license/sakshyamkharel/DumbAssPiss">
+</p>
 
-git clone <repo_url>
-cd <repo_folder>
+---
 
+## 💡 Why I Built This
 
-Install dependencies:
+> People kept chatting in **photo-only** and **flex** channels like it was general chat.  
+> So I built a bot that says: **“Shut up and post your pics.”**  
 
+BhaluBotV2.0 ensures users can only:
+- Send unlimited photos 📸  
+- Send up to **3 text messages per day** 💬  
+After that — their messages get silently deleted 🚫  
+
+No warnings. No spam. Just **discipline**.
+
+---
+
+## ⚙️ Features
+
+✅ **Photo-only enforcement** – Restrict chatting in certain channels  
+✅ **Daily text limit** – 3 messages per user per day  
+✅ **Silent deletion** – Deletes messages without any reply clutter  
+✅ **Automatic log cleanup** – Removes logs older than 24 hours  
+✅ **Slash commands** – Configure channels easily  
+✅ **SQLite storage** – Fast and lightweight data saving  
+
+---
+
+## 🛠️ Slash Commands
+
+| Command | Description |
+|----------|-------------|
+| `/restrict` | Mark current channel as photo-only |
+| `/unrestrict` | Remove restriction from channel |
+| `/logs [limit]` | View recent deleted messages (default: 50) |
+
+---
+
+## 🧠 Setup Instructions
+
+### 1️⃣ Clone the repo
+git clone https://github.com/sakshyamkharel/DumbAssPiss.git
+cd DumbAssPiss
+2️⃣ Install dependencies
+bash
+Copy code
 pip install -U discord.py python-dotenv aiosqlite
-
-
-Create a .env file:
-
+3️⃣ Create a .env file
+env
+Copy code
 DISCORD_TOKEN=your_bot_token_here
-GUILD_ID=123456789012345678   # optional
+GUILD_ID=123456789012345678
+4️⃣ Run the bot
+bash
+Copy code
+python core.py
+🔒 Required Permissions
+🧹 Manage Messages
 
+📖 Read Message History
 
-Run the bot:
+💬 Send Messages
 
-python bhalubot.py
+⚡ Use Slash Commands
 
----
-🛡Permissions Required
----
+Make sure the bot can see all restricted channels or it won’t moderate them.
 
-Manage Messages – Delete excess messages.
+🧩 Tech Stack
+Component	Description
+Python	Core Language
+discord.py	Discord API Wrapper
+aiosqlite	Async database management
+SQLite	Local lightweight data store
 
-Read Message History – Inspect messages.
+🧼 Automatic Maintenance
+The bot automatically:
 
-Send Messages – Reply to commands.
+Deletes old logs every hour ⏳
 
-Use Slash Commands – Execute /restrict, /unrestrict, /logs.
----
----
-🚀Slash Commands
----
+Keeps only 24-hour-old logs 🧾
 
-Command	Description
+Reduces memory & DB load 🚀
 
-/restrict	Mark a channel as photo-only
-
-/unrestrict	Remove photo-only restriction
-
-/logs [limit]	Show recent deletions (default 50, max 200)
-
----
-🛠 Tech Stack
----
-
-Python 3.11
-
-discord.py v2
-
-aiosqlite
-
-SQLite for persistent storage
+🌐 Connect With Me
+<p align="center"> <a href="https://github.com/sakshyamkharel"> <img src="https://img.shields.io/badge/GitHub-sakshyamkharel-181717?style=for-the-badge&logo=github&logoColor=white"/> </a> <a href="https://linkedin.com"> <img src="https://img.shields.io/badge/LinkedIn-Sakshyam-blue?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> </p>
+<p align="center"> <b>“No spam. No chaos. Just photos.”</b><br> 🧠 Made by <a href="https://github.com/sakshyamkharel">Sakshyam Kharel</a> </p>
